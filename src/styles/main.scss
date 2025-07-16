@@ -11,11 +11,18 @@
 @import 'blocks/aside_menu';
 
 body {
-  scroll-behavior: smooth;
   background: rgb(255, 255, 255);
   margin: 0;
 }
 
 * {
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.unscroll {
+  overflow: hidden;
 }

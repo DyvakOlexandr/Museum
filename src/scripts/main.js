@@ -24,3 +24,11 @@ const swiper = new Swiper('.swiper', {
     },
   },
 });
+
+let html = document.querySelector('html');
+document.querySelector('.menu__link').onclick = function () {
+  html.classList.toggle('unscroll');
+};
+document.querySelector('.icon-button-close').onclick = function () {
+  html.classList.remove('unscroll');
+};

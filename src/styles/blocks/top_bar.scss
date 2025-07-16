@@ -68,6 +68,12 @@
   font-weight: 700;
   line-height: 100%;
   text-align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 
   @include on-tablet {
     margin-top: 0;

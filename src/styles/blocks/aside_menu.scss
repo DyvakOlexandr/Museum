@@ -52,8 +52,10 @@
   display: flex;
   flex-direction: row;
   gap: 102px;
+  padding-right: 102px;
 
   @include on-tablet {
+    padding-right: 38px;
     gap: 38px;
   }
 

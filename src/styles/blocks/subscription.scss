@@ -131,3 +131,7 @@ input[placeholder] {
     height: 50px;
   }
 }
+
+input:focus {
+  outline: none;
+}

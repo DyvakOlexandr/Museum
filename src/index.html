@@ -325,13 +325,19 @@
           <p class="subscription_text">
             Бути в курсі всіх актуальних подій та останніх новин.
           </p>
-          <form class="subscription_form">
+          <form
+            action="#"
+            method="post"
+            class="subscription_form"
+            onsubmit="this.reset(); return false;"
+          >
             <input
               type="email"
               name="email"
               autocomplete="email"
               placeholder="E-mail"
               class="subscription_input"
+              required
             />
             <button
               type="submit"
@@ -369,6 +375,7 @@
                     <a
                       href="https://www.facebook.com/namu.museum/?locale=uk_UA"
                       class="footer__social-link"
+                      target="_blank"
                     >
                       <img
                         src="images/Facebook.png"
@@ -378,6 +385,7 @@
                     <a
                       href="https://www.instagram.com/namu.museum/"
                       class="footer__social-link"
+                      target="_blank"
                     >
                       <img
                         src="images/Instagram.png"
