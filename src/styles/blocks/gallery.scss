@@ -6,8 +6,10 @@
   display: flex;
   flex-direction: column;
   gap: 56px;
+}
 
-  @include on-tablet {
+@media (max-width: 1279px) {
+  .gallery {
     display: none;
   }
 }

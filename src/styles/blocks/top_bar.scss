@@ -133,10 +133,6 @@
   line-height: 100%;
   text-decoration: none;
   text-align: left;
-
-  @include on-tablet {
-    display: none;
-  }
 }
 
 .events_strip {
@@ -144,8 +140,16 @@
   margin-top: 565px;
   width: 1px;
   height: 90px;
+}
 
-  @include on-tablet {
+@media (max-width: 1279px) {
+  .events_strip {
+    display: none;
+  }
+}
+
+@media (max-width: 1279px) {
+  .events_text {
     display: none;
   }
 }

@@ -32,3 +32,6 @@ document.querySelector('.menu__link').onclick = function () {
 document.querySelector('.icon-button-close').onclick = function () {
   html.classList.remove('unscroll');
 };
+document.querySelector('.aside_block_1').onclick = function () {
+  html.classList.remove('unscroll');
+};
