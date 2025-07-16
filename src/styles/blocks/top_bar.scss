@@ -34,7 +34,7 @@
 
   @include on-mobile {
     height: 300px;
-    width: 100%;
+    width: 100vw;
   }
 }
 
@@ -100,7 +100,7 @@
 
 .title {
   color: rgb(0, 0, 0);
-  font-family: Montserrat-semi, sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 72px;
   font-weight: 700;
   line-height: 120%;

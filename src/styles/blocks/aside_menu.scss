@@ -116,7 +116,7 @@
   letter-spacing: 0%;
   text-align: left;
   text-decoration: none;
-  transition: transform ease -in-out 0.3s;
+  transition: transform 0.3s ease-in-out;
   &:hover {
     transform: scale(1.1);
   }
